@@ -1,21 +1,21 @@
-interface PaymentMethod {
-    void makePayment(double amount);
+abstract class PaymentMethod {
+    abstract void makePayment(double amount);
 }
 
-class UPI implements PaymentMethod {
-    public void makePayment(double amount) {
+class UPI extends PaymentMethod {
+    void makePayment(double amount) {
         System.out.println("Paid Rs. " + amount + " via UPI");
     }
 }
 
-class CreditCard implements PaymentMethod {
-    public void makePayment(double amount) {
+class CreditCard extends PaymentMethod {
+    void makePayment(double amount) {
         System.out.println("Paid Rs. " + amount + " via Credit Card");
     }
 }
 
-class NetBanking implements PaymentMethod {
-    public void makePayment(double amount) {
+class NetBanking extends PaymentMethod {
+    void makePayment(double amount) {
         System.out.println("Paid Rs. " + amount + " via Net Banking");
     }
 }

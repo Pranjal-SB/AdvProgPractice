@@ -1,0 +1,22 @@
+# Java
+*.class
+*.jar
+*.war
+out/
+bin/
+target/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
