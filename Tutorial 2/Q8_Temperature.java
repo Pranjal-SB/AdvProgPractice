@@ -11,7 +11,7 @@ class Temperature {
 public class Q8_Temperature {
     public static void main(String[] args) {
         Temperature t1 = new Temperature();
-        t1.celsius = 37.0;
+        t1.celsius = 75.0;
         t1.convert();
     }
 }

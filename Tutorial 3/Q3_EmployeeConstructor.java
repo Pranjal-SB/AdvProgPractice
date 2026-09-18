@@ -1,9 +1,9 @@
-class Employee {
+class EmployeeDetails {
     int empId;
     String empName;
     double salary;
 
-    Employee(int empId, String empName, double salary) {
+    EmployeeDetails(int empId, String empName, double salary) {
         this.empId = empId;
         this.empName = empName;
         this.salary = salary;
@@ -18,7 +18,7 @@ class Employee {
 
 public class Q3_EmployeeConstructor {
     public static void main(String[] args) {
-        Employee e1 = new Employee(101, "Rahul", 45000);
+        EmployeeDetails e1 = new EmployeeDetails(101, "Rahul", 45000);
         e1.display();
     }
 }
